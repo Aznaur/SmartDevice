@@ -332,28 +332,28 @@ input[type="radio"].visually-hidden {
   overflow: hidden; }
 
 @font-face {
-  font-family: "PT Mono", "Calibri", sans-serif;
+  font-family: "PT Mono";
   src: url("../fonts/PTMono-Regular.woff2") format("woff2"), url("../fonts/PTMono-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: "Roboto";
   src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
-  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-family: "Roboto Condensed";
   src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"), url("../fonts/RobotoCondensed-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
-  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-family: "Roboto Condensed";
   src: url("../fonts/RobotoCondensed-Bold.woff2") format("woff2"), url("../fonts/RobotoCondensed-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
@@ -362,11 +362,10 @@ input[type="radio"].visually-hidden {
 .page-header {
   width: 100%;
   min-height: 500px;
-  height: 100vh;
   background-color: #1B2D37;
   background-image: url("../img/background-header.jpg");
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: 100% auto; }
 
 /*# sourceMappingURL=style.css.map */
