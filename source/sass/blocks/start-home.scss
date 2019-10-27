@@ -1,0 +1,45 @@
+.start-home {
+  position: relative;
+  max-width: 1411px;
+  margin: 0 auto;
+}
+
+.start-home__message {
+  max-width: 720px;
+}
+
+.start-home__title {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 94px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  margin-left: -6px;
+  margin-bottom: 28px;
+  box-sizing: border-box;
+}
+
+.start-home__subtitle {
+  position: relative;
+  width: 620px;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #FFFFFF;
+  margin: 0;
+  padding-left: 93px;
+  margin-bottom: 45px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 66px;
+    height: 2px;
+    left: 0;
+    top: 17px;
+    background-color: #ffffff;
+  }
+}
