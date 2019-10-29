@@ -11,7 +11,10 @@
   <header class="page-header">
     <div class="page-header__top">
       <a class="logo" href="#">
-        <img src="img/logo-header.svg" alt="Логотип компании" width="202" height="52">
+        <picture>
+            <source media="(max-width: 767px)" srcset="img/logo-mobile.svg">
+          <img src="img/logo-header.svg" alt="Логотип компании">
+        </picture>
       </a>
       <p class="page-header__email">info@sd.ru</p>
       <p class="page-header__phone">+7 (495) 000 52 52</p>
@@ -95,9 +98,9 @@
     <section class="feedback">
       <h2 class="visually-hidden">Форма обратной связи</h2>
       <div class="container">
-        <div class="feedback__image">
+        <!-- <div class="feedback__image">
           <img src="img/paper_airplane-desktop@1x.png" alt="Картинка бумажного самолетика" width="511" height="288">
-        </div>
+        </div> -->
         <div class="feedback__form-wrapp">
           <p>Остались вопросы? Задайте их нам!</p>
           <p>Мы проконсультируем Вас бесплатно</p>

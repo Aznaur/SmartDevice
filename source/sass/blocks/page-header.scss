@@ -154,3 +154,31 @@
     margin-left: 45px;
   }
 }
+
+@media(max-width: 767px) {
+
+  .page-header {
+    padding-top: 17px;
+    min-width: 320px;
+    padding-bottom: 163px;
+    padding-bottom: 70px;
+  }
+
+  .page-header__top {
+    padding-left: 17px;
+    padding-right: 15px;
+    margin-bottom: 231px;
+  }
+
+  .page-header__email {
+    padding-left: 50px;
+  }
+
+  .page-header__btn {
+    width: 287px;
+    margin: 0;
+    padding: 0;
+    margin-left: -3px;
+  }
+
+}
