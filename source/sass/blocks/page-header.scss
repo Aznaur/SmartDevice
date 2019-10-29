@@ -2,22 +2,23 @@
   width: 100%;
   min-height: 500px;
   background-color: #1B2D37;
-  background-image: url("../img/photo-boards-desktop@1x.png"), url("../img/triangle.svg"), url("../img/background-desktop@1x.jpg");
-  background-position: 1038px 258px, 1051px 271px, center top;
+  background-image:  url("../img/background-desktop@1x.jpg");
+  background-position: center top;
   background-repeat: no-repeat;
-  background-size: 705px 515px, 611px 487px, cover;
+  background-size: cover;
   padding-top: 33px;
   padding-bottom: 274px;
+  overflow-x: hidden;
 }
 
 .page-header__top {
-  max-width: 1431px;
+  max-width: 1460px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   margin-bottom: 230px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
   box-sizing: border-box;
 }
 
@@ -105,4 +106,51 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+@media(max-width: 1023px) {
+
+  .page-header {
+    padding-top: 20px;
+    min-width: 750px;
+    padding-bottom: 163px;
+  }
+
+  .page-header__email {
+    font-size: 0;
+    padding-left: 60px;
+
+    &::before {
+      content: "";
+      width: 26.33px;
+      height: 18.67px;
+      top: -2px;
+    }
+  }
+
+  .page-header__top {
+    margin-bottom: 117px;
+  }
+
+  .page-header__phone {
+    font-size: 0;
+    margin: 0;
+    padding-left: 24px;
+
+    &::before {
+      content: "";
+      width: 24px;
+      height: 24px;
+      top: -5px;
+    }
+  }
+
+  .page-header__link {
+    display: none;
+  }
+
+  .page-header__btn {
+    width: 379px;
+    margin-left: 45px;
+  }
 }
