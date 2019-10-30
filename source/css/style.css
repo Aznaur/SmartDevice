@@ -359,6 +359,10 @@ input[type="radio"].visually-hidden {
   font-style: normal;
   font-display: swap; }
 
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
 .page-header {
   width: 100%;
   min-height: 500px;
