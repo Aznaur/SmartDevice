@@ -360,9 +360,13 @@ input[type="radio"].visually-hidden {
   font-display: swap; }
 
 .container {
-  max-width: 1120px;
+  max-width: 1170px;
   padding: 0 25px 0 25px;
   margin: 0 auto; }
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 16px 0 14px; } }
 
 .page-header {
   width: 100%;
@@ -667,16 +671,26 @@ input[type="radio"].visually-hidden {
 .page-main {
   padding-top: 113px; }
 
+@media (max-width: 1023px) {
+  .page-main {
+    padding-top: 54px; } }
+
+@media (max-width: 767px) {
+  .page-main {
+    padding-top: 37px; } }
+
 .advantages__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   min-height: 628px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
   margin: 0;
   list-style: none;
   padding: 0;
@@ -687,7 +701,7 @@ input[type="radio"].visually-hidden {
           box-sizing: border-box;
   border: 1px solid #EBEBEB;
   border-left: 3px solid #00B2FF;
-  width: calc(100% - 600px);
+  max-width: calc(100% - 600px);
   min-height: 299px;
   padding-left: 41px;
   padding-right: 43px;
@@ -709,5 +723,48 @@ input[type="radio"].visually-hidden {
   .advantages__item p {
     margin: 0;
     padding-top: 16px; }
+
+@media (max-width: 1023px) {
+  .advantages__item {
+    max-width: 47.891%;
+    padding-top: 24px;
+    padding-right: 21px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    min-height: 306px; }
+    .advantages__item--tag {
+      min-height: 232px; }
+    .advantages__item h3 {
+      padding-top: 2px; }
+    .advantages__item p {
+      padding-top: 10px; }
+    .advantages__item--detective {
+      min-height: 232px; }
+      .advantages__item--detective p {
+        padding-top: 16px; } }
+
+@media (max-width: 767px) {
+  .advantages__list {
+    display: block; }
+  .advantages__item {
+    max-width: 100%;
+    min-width: 290px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    min-height: 310px;
+    padding-left: 26px; }
+    .advantages__item--detective {
+      min-height: 232px; }
+    .advantages__item--tag {
+      min-height: 232px;
+      padding-bottom: 25px; }
+    .advantages__item--hired {
+      padding-right: 14px; }
+    .advantages__item h3 {
+      font-size: 20px;
+      line-height: 32px;
+      padding-top: 4px; }
+    .advantages__item p {
+      padding-top: 8px; } }
 
 /*# sourceMappingURL=style.css.map */
