@@ -7,7 +7,7 @@
   margin: 0;
   list-style: none;
   padding: 0;
-  padding-bottom: 106px;
+  padding-bottom: 74px;
 }
 
 .advantages__item {
@@ -50,6 +50,10 @@
 }
 
 @media(max-width: 1023px) {
+  .advantages__list {
+    min-height: 622px;
+    padding-bottom: 0;
+  }
 
   .advantages__item {
     max-width: 47.891%;
