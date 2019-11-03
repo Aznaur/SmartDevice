@@ -1037,4 +1037,231 @@ input[type="radio"].visually-hidden {
       background-repeat: no-repeat;
       background-position: center top; } }
 
+.feedback {
+  background-color: #00B2FF;
+  padding-top: 90px;
+  padding-bottom: 114px;
+  background-image: url("../img/triangle.svg");
+  background-repeat: no-repeat;
+  background-size: 611px 487px;
+  background-position: 196px 93px; }
+
+.feedback__form-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+
+.feedback__image {
+  width: 44%;
+  position: absolute;
+  top: 15%;
+  left: -2%; }
+  .feedback__image img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+@media (max-width: 1023px) {
+  .feedback {
+    background-image: none;
+    padding-top: 79px; }
+  .feedback__form-wrapp {
+    margin-left: 63px;
+    margin-right: 62px; }
+  .feedback__image {
+    display: none; } }
+
+@media (max-width: 767px) {
+  .feedback {
+    padding-top: 30px;
+    padding-bottom: 42px; }
+  .feedback__form-wrapp {
+    margin-left: 0;
+    margin-right: 0; } }
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 574px;
+  margin-left: auto; }
+  .form p:first-of-type {
+    width: 100%;
+    font-family: "Roboto Condensed", "Calibri", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 51px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 10px; }
+  .form p:last-of-type {
+    width: 100%;
+    margin: 0;
+    padding-left: 4px;
+    color: #ffffff;
+    margin-bottom: 52px; }
+
+.form__field-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%; }
+  .form__field-name input[type="text"] {
+    width: 270px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-left: 16px;
+    color: #ffffff;
+    background-color: #19BAFF;
+    border: none; }
+  .form__field-name input::-webkit-input-placeholder {
+    color: #ffffff; }
+  .form__field-name input::-moz-placeholder {
+    color: #ffffff; }
+  .form__field-name input:-ms-input-placeholder {
+    color: #ffffff; }
+  .form__field-name input::-ms-input-placeholder {
+    color: #ffffff; }
+  .form__field-name input::placeholder {
+    color: #ffffff; }
+
+.form__field-textarea {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 37px; }
+  .form__field-textarea textarea {
+    width: 100%;
+    height: 154px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: none;
+    background-color: #19BAFF;
+    color: #ffffff;
+    padding-top: 13px;
+    padding-left: 16px; }
+    .form__field-textarea textarea::-webkit-input-placeholder {
+      color: #ffffff; }
+    .form__field-textarea textarea::-moz-placeholder {
+      color: #ffffff; }
+    .form__field-textarea textarea:-ms-input-placeholder {
+      color: #ffffff; }
+    .form__field-textarea textarea::-ms-input-placeholder {
+      color: #ffffff; }
+    .form__field-textarea textarea::placeholder {
+      color: #ffffff; }
+
+.form__field-bottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative; }
+  .form__field-bottom button {
+    width: 270px;
+    height: 45px;
+    background-color: inherit;
+    font-family: "Roboto Condensed", "Calibri", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 4px;
+    cursor: pointer; }
+    .form__field-bottom button:hover {
+      background-color: #ffffff;
+      color: #00B2FF; }
+  .form__field-bottom label {
+    position: relative;
+    width: 230px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-left: 50px;
+    padding-top: 9px;
+    font-size: 14px;
+    line-height: 16px; }
+    .form__field-bottom label::before {
+      content: "";
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border: 1px solid #ffffff;
+      left: 18px; }
+  .form__field-bottom input[type="checkbox"]:checked + label::before {
+    content: "";
+    background-image: url("../img/vector.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center; }
+
+@media (max-width: 1023px) {
+  .form {
+    width: 100%; }
+    .form p:first-of-type {
+      font-size: 32px;
+      line-height: 45px;
+      margin-bottom: 17px; }
+    .form p:last-of-type {
+      margin-bottom: 55px; }
+  .form__field-name input[type="text"] {
+    width: 48%; } }
+
+@media (max-width: 767px) {
+  .form p:first-of-type {
+    font-size: 28px;
+    line-height: 39px;
+    margin-bottom: 14px; }
+  .form p:last-of-type {
+    margin-bottom: 27px; }
+  .form__field-name {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 132px;
+    -ms-flex-line-pack: justify;
+        align-content: space-between; }
+    .form__field-name input[type="text"] {
+      width: 100%; }
+  .form__field-textarea {
+    margin-top: 31px;
+    margin-bottom: 26px; }
+    .form__field-textarea textarea {
+      height: 104px; }
+  .form__field-bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .form__field-bottom button {
+      width: 100%;
+      margin-bottom: 22px;
+      margin-left: 0; }
+    .form__field-bottom label {
+      padding-left: 35px; }
+      .form__field-bottom label::before {
+        content: "";
+        left: 0; } }
+
 /*# sourceMappingURL=style.css.map */
