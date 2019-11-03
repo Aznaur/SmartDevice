@@ -47,6 +47,21 @@
     margin: 0;
     padding-top: 16px;
   }
+
+  &:hover {
+    background-color: #00B2FF;
+    border-color: #00B2FF;
+    color: #ffffff;
+    cursor: pointer;
+
+    & h3 {
+      color: #ffffff;
+    }
+
+    & svg {
+      fill: #ffffff;
+    }
+  }
 }
 
 @media(max-width: 1023px) {

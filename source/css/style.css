@@ -405,7 +405,8 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
   padding-left: 40px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  text-decoration: none; }
   .page-header__email::before {
     content: "";
     position: absolute;
@@ -428,7 +429,8 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
   padding-left: 34px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  text-decoration: none; }
   .page-header__phone::before {
     content: "";
     position: absolute;
@@ -457,6 +459,10 @@ input[type="radio"].visually-hidden {
   border-radius: 5px;
   text-decoration: none;
   text-transform: uppercase; }
+  .page-header__link:hover {
+    background-color: #00B2FF;
+    border-color: #00B2FF;
+    color: #ffffff; }
 
 .page-header__btn {
   width: 407px;
@@ -474,7 +480,12 @@ input[type="radio"].visually-hidden {
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  cursor: pointer; }
+  .page-header__btn:hover {
+    background-color: inherit;
+    border: 1px solid #ffffff;
+    color: #ffffff; }
 
 @media (max-width: 1023px) {
   .page-header {
@@ -713,6 +724,15 @@ input[type="radio"].visually-hidden {
   .advantages__item p {
     margin: 0;
     padding-top: 16px; }
+  .advantages__item:hover {
+    background-color: #00B2FF;
+    border-color: #00B2FF;
+    color: #ffffff;
+    cursor: pointer; }
+    .advantages__item:hover h3 {
+      color: #ffffff; }
+    .advantages__item:hover svg {
+      fill: #ffffff; }
 
 @media (max-width: 1023px) {
   .advantages__list {
@@ -832,8 +852,13 @@ input[type="radio"].visually-hidden {
   border-radius: 5px;
   padding: 14px 0 14px 0;
   margin-top: 38px; }
+  .about-company__btn:hover {
+    background-color: #00B2FF;
+    color: #ffffff; }
 
 @media (max-width: 1023px) {
+  .about-company {
+    padding-bottom: 84px; }
   .about-company__description {
     margin-left: 186px; }
     .about-company__description h2 {
@@ -854,6 +879,8 @@ input[type="radio"].visually-hidden {
     top: 1px; } }
 
 @media (max-width: 767px) {
+  .about-company {
+    padding-bottom: 65px; }
   .about-company__image {
     display: none; }
   .about-company__description {
@@ -872,5 +899,142 @@ input[type="radio"].visually-hidden {
     overflow-y: hidden; }
   .about-company__btn {
     margin-top: 31px; } }
+
+.services {
+  background-color: #1B2D37;
+  padding-top: 89px;
+  padding-bottom: 128px; }
+  .services h2 {
+    font-family: "Roboto Condensed", "Calibri", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 51px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 52px; }
+
+.services__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.services__item {
+  position: relative;
+  width: 31.624%;
+  height: 620px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  padding-top: 50px;
+  padding-left: 43px;
+  border: 1px solid transparent; }
+  .services__item::after {
+    content: "";
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    background-color: #00B2FF;
+    background-image: url("../img/arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 6px 9px;
+    background-position: center center;
+    bottom: 0;
+    right: 0; }
+  .services__item:hover {
+    border: 1px solid #00B2FF; }
+  .services__item h3 {
+    width: 160px;
+    color: #ffffff;
+    font-family: "Roboto Condensed", "Calibri", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0; }
+  .services__item--production {
+    background-image: url("../img/service-0-desktop@1x.png");
+    background-size: 370px 620px;
+    background-repeat: no-repeat;
+    background-position: center top; }
+  .services__item--mounting {
+    background-image: url("../img/service-1-desktop@1x.png");
+    background-size: 370px 620px;
+    background-repeat: no-repeat;
+    background-position: center top; }
+  .services__item--component-parts {
+    background-image: url("../img/service-2-desktop@1x.png");
+    background-size: 370px 620px;
+    background-repeat: no-repeat;
+    background-position: center top; }
+
+@media (max-width: 1023px) {
+  .services {
+    padding-top: 51px;
+    padding-bottom: 78px; }
+    .services h2 {
+      width: 86%;
+      font-size: 32px;
+      line-height: 140.62%;
+      margin-bottom: 49px; }
+  .services__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 860px; }
+  .services__item {
+    width: 99.945%;
+    height: 256px;
+    padding-top: 40px;
+    padding-left: 45px; }
+    .services__item--production {
+      background-image: url("../img/service-0-tablet@1x.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center top; }
+    .services__item--mounting {
+      background-image: url("../img/service-1-tablet@1x.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center top; }
+    .services__item--component-parts {
+      background-image: url("../img/service-2-tablet@1x.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center top; } }
+
+@media (max-width: 767px) {
+  .services {
+    padding-bottom: 64px; }
+    .services h2 {
+      width: 100%;
+      font-size: 28px;
+      line-height: 39px;
+      padding-left: 10px;
+      margin-bottom: 43px; }
+  .services__list {
+    min-height: 828px; }
+  .services__item {
+    padding-top: 20px;
+    padding-left: 36px; }
+    .services__item--production {
+      background-image: url("../img/service-0-mobile@1x.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center top; }
+    .services__item--mounting {
+      background-image: url("../img/service-1-mobile@1x.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center top; }
+    .services__item--component-parts {
+      background-image: url("../img/service-2-mobile@1x.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center top; } }
 
 /*# sourceMappingURL=style.css.map */

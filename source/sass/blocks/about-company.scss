@@ -59,9 +59,18 @@
   border-radius: 5px;
   padding: 14px 0 14px 0;
   margin-top: 38px;
+
+  &:hover {
+    background-color: #00B2FF;
+    color: #ffffff;
+  }
 }
 
 @media(max-width: 1023px) {
+  .about-company {
+    padding-bottom: 84px;
+  }
+
   .about-company__description {
     margin-left: 186px;
 
@@ -94,6 +103,9 @@
 }
 
 @media(max-width: 767px) {
+  .about-company {
+    padding-bottom: 65px;
+  }
   .about-company__image {
     display: none;
   }
