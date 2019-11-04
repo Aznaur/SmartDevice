@@ -6,3 +6,9 @@
   justify-content: space-between;
   width: 112px;
 }
+
+.social-list__link {
+  &:hover svg path{
+    fill: #00B2FF;
+  }
+}
