@@ -1,8 +1,6 @@
 .footer-nav__list {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  height: 120px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -17,4 +15,14 @@
     color: #1B2D37;
     opacity: 0.5;
   }
+
+  &:first-of-type {
+    margin-right: 74px;
+  }
+}
+
+.footer-nav__group {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
