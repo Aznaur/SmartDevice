@@ -25,7 +25,7 @@
         <p class="start-home__title">Печатные платы</p>
         <p class="start-home__subtitle">производство и монтаж, поставка комплектующих, блоков и модулей</p>
         <button class="page-header__btn" type="button">Получить бесплатную консультацию</button>
-        <b>Скролл вниз</b>
+        <a href="#">Скролл вниз</a>
       </div>
       <div class="start-home__img">
         <picture>
@@ -33,6 +33,32 @@
           <source media="(max-width: 1023px)" srcset="img/photo-boards-tablet@1x.png 1x, img/photo-boards-tablet@2x.png 2x">
           <img src="img/photo-boards-desktop@1x.png" srcset="img/photo-boards-desktop@2x.png 2x" alt="Фото плат">
         </picture>
+      </div>
+    </div>
+    <div class="wrapp-modal">
+      <div class="modal">
+        <button class="modal__close" type="button">close</button>
+        <form class="callback-form" action="#" method="post">
+            <p>Закажите звонок</p>
+            <p>Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
+          <div class="callback-form__field-name">
+            <label class="visually-hidden" for="name-field">Имя</label>
+            <input type="text" id="name-field" name="name" placeholder="Имя">
+
+            <label class="visually-hidden" for="tel-field">Телефон</label>
+            <input type="text" id="tel-field" name="tel" placeholder="Телефон">
+          </div>
+
+          <div class="callback-form__field-textarea">
+            <textarea name="question" placeholder="Ваш вопрос"></textarea>
+          </div>
+
+          <div class="callback-form__field-bottom">
+            <button type="submit">Отправить</button>
+            <input type="checkbox" name="consent" id="consent-field" checked class="visually-hidden">
+            <label for="consent-field">Я согласен на обработку  персональных данных</label>
+          </div>
+        </form>
       </div>
     </div>
   </header>
@@ -162,7 +188,9 @@
   <footer class="page-footer">
     <div class="page-footer__inner">
       <div class="page-footer__social">
-        <img src="img/logo-footer.svg" alt="Логотип компании" width="216" height="52">
+        <a class="logo" href="#">
+          <img src="img/logo-footer.svg" alt="Логотип компании" width="216" height="52">
+        </a>
         <p>1999-2018 SD Service Devices</p>
         <ul class="social-list">
           <li class="social-list__item">
@@ -214,15 +242,15 @@
       <div class="page-footer__contacts">
           <h3>Наш офис</h3>
           <p>г. Мытищи, Олимпийский проспект, д.10</p>
-          <p>+7 (495) 589-40-50</p>
-          <p>+7 (925) 003-87-67</p>
-          <p>+7 (926) 926-080-79</p>
+          <a href="tel:+7(495)5894050">+7 (495) 589-40-50</a>
+          <a href="tel:+7(925)0038767">+7 (925) 003-87-67</a>
+          <a href="tel:+7(926)92608079">+7 (926) 926-080-79</a>
       </div>
 
       <div class="page-footer__bottom">
         <p>Все права защищены</p>
-        <p>Условия конфиденциальности</p>
-        <p>Developed by wow studio </p>
+        <a href="#">Условия конфиденциальности</a>
+        <a href="#">Developed by wow studio </a>
       </div>
     </div>
   </footer>

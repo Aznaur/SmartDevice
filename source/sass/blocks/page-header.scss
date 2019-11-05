@@ -34,6 +34,11 @@
   box-sizing: border-box;
   text-decoration: none;
 
+  &:hover {
+    text-decoration: underline;
+    color: #9696a2;
+  }
+
   &::before {
     content: "";
     position: absolute;
@@ -59,6 +64,11 @@
   padding-left: 34px;
   box-sizing: border-box;
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: #9696a2;
+  }
 
   &::before {
     content: "";
