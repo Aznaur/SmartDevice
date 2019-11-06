@@ -1,3 +1,4 @@
+/* stylelint-disable */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -371,7 +372,7 @@ input[type="radio"].visually-hidden {
 .page-header {
   width: 100%;
   min-height: 500px;
-  background-color: #1B2D37;
+  background-color: #1b2d37;
   background-image: url("../img/background-desktop@1x.jpg");
   background-position: center top;
   background-repeat: no-repeat;
@@ -466,15 +467,15 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
   text-transform: uppercase; }
   .page-header__link:hover {
-    background-color: #00B2FF;
-    border-color: #00B2FF;
+    background-color: #00b2ff;
+    border-color: #00b2ff;
     color: #ffffff; }
 
 .page-header__btn {
   width: 407px;
   height: 55px;
   border-radius: 5px;
-  background-color: #00B2FF;
+  background-color: #00b2ff;
   text-decoration: none;
   color: #ffffff;
   border: 0;
@@ -486,7 +487,6 @@ input[type="radio"].visually-hidden {
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FFFFFF;
   cursor: pointer; }
   .page-header__btn:hover {
     background-color: inherit;
@@ -527,7 +527,6 @@ input[type="radio"].visually-hidden {
   .page-header {
     padding-top: 17px;
     min-width: 320px;
-    padding-bottom: 163px;
     padding-bottom: 70px; }
   .page-header__top {
     padding-left: 17px;
@@ -593,7 +592,7 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   font-size: 22px;
   line-height: 34px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
   padding-left: 93px;
   margin-bottom: 45px; }
@@ -618,7 +617,7 @@ input[type="radio"].visually-hidden {
     left: 13px;
     width: 611px;
     height: 487px;
-    background-image: url(../img/triangle.svg);
+    background-image: url("../img/triangle.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -659,7 +658,7 @@ input[type="radio"].visually-hidden {
       left: -70px;
       width: 330px;
       height: 466px;
-      background-image: url(../img/triangle-tablet.svg);
+      background-image: url("../img/triangle-tablet.svg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover; } }
@@ -710,8 +709,8 @@ input[type="radio"].visually-hidden {
 .advantages__item {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 1px solid #EBEBEB;
-  border-left: 3px solid #00B2FF;
+  border: 1px solid #ebebeb;
+  border-left: 3px solid #00b2ff;
   max-width: calc(100% - 600px);
   min-height: 299px;
   padding-left: 41px;
@@ -731,13 +730,13 @@ input[type="radio"].visually-hidden {
     font-weight: normal;
     font-size: 24px;
     line-height: 34px;
-    color: #00B2FF; }
+    color: #00b2ff; }
   .advantages__item p {
     margin: 0;
     padding-top: 16px; }
   .advantages__item:hover {
-    background-color: #00B2FF;
-    border-color: #00B2FF;
+    background-color: #00b2ff;
+    border-color: #00b2ff;
     color: #ffffff;
     cursor: pointer; }
     .advantages__item:hover h3 {
@@ -856,15 +855,15 @@ input[type="radio"].visually-hidden {
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #00B2FF;
-  border: 1px solid #00B2FF;
+  color: #00b2ff;
+  border: 1px solid #00b2ff;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 5px;
   padding: 14px 0 14px 0;
   margin-top: 38px; }
   .about-company__btn:hover {
-    background-color: #00B2FF;
+    background-color: #00b2ff;
     color: #ffffff; }
 
 @media (max-width: 1023px) {
@@ -912,7 +911,7 @@ input[type="radio"].visually-hidden {
     margin-top: 31px; } }
 
 .services {
-  background-color: #1B2D37;
+  background-color: #1b2d37;
   padding-top: 89px;
   padding-bottom: 128px; }
   .services h2 {
@@ -921,7 +920,7 @@ input[type="radio"].visually-hidden {
     font-weight: normal;
     font-size: 36px;
     line-height: 51px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 0;
     margin-bottom: 52px; }
 
@@ -948,7 +947,7 @@ input[type="radio"].visually-hidden {
     position: absolute;
     width: 63px;
     height: 63px;
-    background-color: #00B2FF;
+    background-color: #00b2ff;
     background-image: url("../img/arrow.svg");
     background-repeat: no-repeat;
     background-size: 6px 9px;
@@ -956,7 +955,7 @@ input[type="radio"].visually-hidden {
     bottom: 0;
     right: 0; }
   .services__item:hover {
-    border: 1px solid #00B2FF; }
+    border: 1px solid #00b2ff; }
   .services__item h3 {
     width: 160px;
     color: #ffffff;
@@ -1049,7 +1048,7 @@ input[type="radio"].visually-hidden {
       background-position: center top; } }
 
 .feedback {
-  background-color: #00B2FF;
+  background-color: #00b2ff;
   padding-top: 90px;
   padding-bottom: 114px;
   background-image: url("../img/triangle.svg");
@@ -1111,7 +1110,7 @@ input[type="radio"].visually-hidden {
     font-weight: normal;
     font-size: 36px;
     line-height: 51px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 0;
     margin-bottom: 10px; }
   .form p:last-of-type {
@@ -1136,7 +1135,7 @@ input[type="radio"].visually-hidden {
             box-sizing: border-box;
     padding-left: 16px;
     color: #ffffff;
-    background-color: #19BAFF;
+    background-color: #19baff;
     border: none; }
   .form__field-name input::-webkit-input-placeholder {
     color: #ffffff; }
@@ -1159,7 +1158,7 @@ input[type="radio"].visually-hidden {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border: none;
-    background-color: #19BAFF;
+    background-color: #19baff;
     color: #ffffff;
     padding-top: 13px;
     padding-left: 16px; }
@@ -1195,8 +1194,8 @@ input[type="radio"].visually-hidden {
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    border: 1px solid #FFFFFF;
+    color: #ffffff;
+    border: 1px solid #ffffff;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border-radius: 5px;
@@ -1204,11 +1203,11 @@ input[type="radio"].visually-hidden {
     cursor: pointer; }
     .form__field-bottom button:hover {
       background-color: #ffffff;
-      color: #00B2FF; }
+      color: #00b2ff; }
   .form__field-bottom label {
     position: relative;
     width: 230px;
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 0.8;
     padding-left: 50px;
     padding-top: 9px;
@@ -1277,7 +1276,7 @@ input[type="radio"].visually-hidden {
 
 .page-footer {
   position: relative;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   overflow-x: hidden; }
   .page-footer::after {
     content: "";
@@ -1302,12 +1301,6 @@ input[type="radio"].visually-hidden {
       flex-wrap: wrap;
   padding-top: 64px; }
 
-.page-footer__bottom {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
 .page-footer__social {
   position: relative;
   margin-right: 50px; }
@@ -1321,7 +1314,7 @@ input[type="radio"].visually-hidden {
     margin: 0;
     bottom: -97px;
     left: 223px;
-    color: #1B2D37;
+    color: #1b2d37;
     opacity: 0.5; }
   .page-footer__social img {
     display: block;
@@ -1344,12 +1337,12 @@ input[type="radio"].visually-hidden {
 .page-footer__contacts {
   width: 333px; }
   .page-footer__contacts h3 {
-    font-family: Roboto Condensed;
+    font-family: "Roboto Condensed", "Calibri", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 16px;
-    color: #1B2D37;
+    color: #1b2d37;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     margin: 0;
@@ -1358,19 +1351,20 @@ input[type="radio"].visually-hidden {
     margin: 0;
     font-size: 15px;
     line-height: 25px;
-    color: #1B2D37;
+    color: #1b2d37;
     opacity: 0.5; }
   .page-footer__contacts a {
     font-size: 15px;
     line-height: 25px;
     display: block;
     text-decoration: none;
-    color: #1B2D37;
+    color: #1b2d37;
     opacity: 0.5; }
     .page-footer__contacts a:hover {
       text-decoration: underline; }
 
 .page-footer__bottom {
+  width: 100%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1384,14 +1378,14 @@ input[type="radio"].visually-hidden {
     line-height: 24px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #1B2D37;
+    color: #1b2d37;
     opacity: 0.5;
     margin-right: 31.8%; }
   .page-footer__bottom a {
     font-size: 13px;
     line-height: 24px;
     letter-spacing: 0.04em;
-    color: #1B2D37;
+    color: #1b2d37;
     opacity: 0.5;
     text-decoration: none;
     display: block;
@@ -1525,7 +1519,7 @@ input[type="radio"].visually-hidden {
     margin-right: 15.5px; }
 
 .social-list__link:hover svg path {
-  fill: #00B2FF; }
+  fill: #00b2ff; }
 
 .footer-nav__list {
   display: -webkit-box;
@@ -1541,7 +1535,7 @@ input[type="radio"].visually-hidden {
   font-size: 15px;
   line-height: 25px;
   text-decoration: none;
-  color: #1B2D37;
+  color: #1b2d37;
   opacity: 0.5; }
   .footer-nav__item a:hover {
     text-decoration: underline;
@@ -1561,7 +1555,7 @@ input[type="radio"].visually-hidden {
 
 .modal {
   width: 490px;
-  background-color: #00B2FF;
+  background-color: #00b2ff;
   position: absolute;
   top: 50%;
   margin-top: -302.5px;
@@ -1600,7 +1594,7 @@ input[type="radio"].visually-hidden {
     font-weight: normal;
     font-size: 28px;
     line-height: 39px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 0;
     margin-bottom: 10px; }
   .callback-form p:last-of-type {
@@ -1620,7 +1614,7 @@ input[type="radio"].visually-hidden {
             box-sizing: border-box;
     padding-left: 16px;
     color: #ffffff;
-    background-color: #19BAFF;
+    background-color: #19baff;
     border: none; }
   .callback-form__field-name input::-webkit-input-placeholder {
     color: #ffffff; }
@@ -1644,7 +1638,7 @@ input[type="radio"].visually-hidden {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border: none;
-    background-color: #19BAFF;
+    background-color: #19baff;
     color: #ffffff;
     padding-top: 13px;
     padding-left: 16px; }
@@ -1674,8 +1668,8 @@ input[type="radio"].visually-hidden {
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    border: 1px solid #FFFFFF;
+    color: #ffffff;
+    border: 1px solid #ffffff;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border-radius: 5px;
@@ -1683,12 +1677,12 @@ input[type="radio"].visually-hidden {
     cursor: pointer; }
     .callback-form__field-bottom button:hover {
       background-color: #ffffff;
-      color: #00B2FF; }
+      color: #00b2ff; }
   .callback-form__field-bottom label {
     display: block;
     position: relative;
     width: 337px;
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 0.8;
     padding-left: 50px;
     padding-top: 9px;
