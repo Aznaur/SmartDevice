@@ -1,8 +1,8 @@
 .page-header {
   width: 100%;
   min-height: 500px;
-  background-color: #1B2D37;
-  background-image:  url("../img/background-desktop@1x.jpg");
+  background-color: #1b2d37;
+  background-image: url("../img/background-desktop@1x.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,8 +101,8 @@
   text-transform: uppercase;
 
   &:hover {
-    background-color: #00B2FF;
-    border-color: #00B2FF;
+    background-color: #00b2ff;
+    border-color: #00b2ff;
     color: #ffffff;
   }
 }
@@ -111,7 +111,7 @@
   width: 407px;
   height: 55px;
   border-radius: 5px;
-  background-color: #00B2FF;
+  background-color: #00b2ff;
   text-decoration: none;
   color: #ffffff;
   border: 0;
@@ -123,7 +123,6 @@
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FFFFFF;
   cursor: pointer;
 
   &:hover {
@@ -133,8 +132,7 @@
   }
 }
 
-@media(max-width: 1023px) {
-
+@media (max-width: 1023px) {
   .page-header {
     padding-top: 20px;
     min-width: 750px;
@@ -180,12 +178,10 @@
   }
 }
 
-@media(max-width: 767px) {
-
+@media (max-width: 767px) {
   .page-header {
     padding-top: 17px;
     min-width: 320px;
-    padding-bottom: 163px;
     padding-bottom: 70px;
   }
 
@@ -205,5 +201,4 @@
     padding: 0;
     margin-left: -3px;
   }
-
 }

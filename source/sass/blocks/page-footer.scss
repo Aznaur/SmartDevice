@@ -1,6 +1,6 @@
 .page-footer {
   position: relative;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   overflow-x: hidden;
 
   &::after {
@@ -24,11 +24,6 @@
   padding-top: 64px;
 }
 
-.page-footer__bottom {
-  width: 100%;
-  display: flex;
-}
-
 .page-footer__social {
   position: relative;
   margin-right: 50px;
@@ -43,7 +38,7 @@
     margin: 0;
     bottom: -97px;
     left: 223px;
-    color: #1B2D37;
+    color: #1b2d37;
     opacity: 0.5;
   }
 
@@ -74,12 +69,12 @@
   width: 333px;
 
   & h3 {
-    font-family: Roboto Condensed;
+    font-family: "Roboto Condensed", "Calibri", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 16px;
-    color: #1B2D37;
+    color: #1b2d37;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     margin: 0;
@@ -90,7 +85,7 @@
     margin: 0;
     font-size: 15px;
     line-height: 25px;
-    color: #1B2D37;
+    color: #1b2d37;
     opacity: 0.5;
   }
 
@@ -99,7 +94,7 @@
     line-height: 25px;
     display: block;
     text-decoration: none;
-    color: #1B2D37;
+    color: #1b2d37;
     opacity: 0.5;
 
     &:hover {
@@ -109,6 +104,7 @@
 }
 
 .page-footer__bottom {
+  width: 100%;
   position: relative;
   display: flex;
   margin-top: 60px;
@@ -119,7 +115,7 @@
     line-height: 24px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #1B2D37;
+    color: #1b2d37;
     opacity: 0.5;
     margin-right: 31.8%;
   }
@@ -128,7 +124,7 @@
     font-size: 13px;
     line-height: 24px;
     letter-spacing: 0.04em;
-    color: #1B2D37;
+    color: #1b2d37;
     opacity: 0.5;
     text-decoration: none;
     display: block;
@@ -144,9 +140,7 @@
   }
 }
 
-
-@media(max-width: 1023px) {
-
+@media (max-width: 1023px) {
   .page-footer {
     &::before {
       content: "";
@@ -206,7 +200,7 @@
   }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .page-footer__inner {
     padding-top: 48px;
     padding-left: 15px;
@@ -233,11 +227,11 @@
     & img {
       margin-bottom: 17px;
     }
-
   }
 
   .page-footer {
     padding-bottom: 14px;
+
     &::before {
       content: "";
       top: 260px;
@@ -248,6 +242,7 @@
       bottom: 123px;
     }
   }
+
   .page-footer__nav {
     position: relative;
     width: 100%;

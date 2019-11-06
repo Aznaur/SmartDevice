@@ -12,8 +12,8 @@
 
 .advantages__item {
   box-sizing: border-box;
-  border: 1px solid #EBEBEB;
-  border-left: 3px solid #00B2FF;
+  border: 1px solid #ebebeb;
+  border-left: 3px solid #00b2ff;
   max-width: calc(100% - 600px);
   min-height: 299px;
   padding-left: 41px;
@@ -28,10 +28,6 @@
     margin-right: 0;
   }
 
-  &--stopwatch {
-
-  }
-
   & h3 {
     margin: 0;
     padding-top: 13px;
@@ -40,7 +36,7 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 34px;
-    color: #00B2FF;
+    color: #00b2ff;
   }
 
   & p {
@@ -49,8 +45,8 @@
   }
 
   &:hover {
-    background-color: #00B2FF;
-    border-color: #00B2FF;
+    background-color: #00b2ff;
+    border-color: #00b2ff;
     color: #ffffff;
     cursor: pointer;
 
@@ -64,7 +60,7 @@
   }
 }
 
-@media(max-width: 1023px) {
+@media (max-width: 1023px) {
   .advantages__list {
     min-height: 622px;
     padding-bottom: 0;
@@ -100,7 +96,7 @@
   }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .advantages__list {
     display: block;
   }

@@ -23,7 +23,7 @@
     margin: 0;
   }
 
-  & p:last-of-type{
+  & p:last-of-type {
     margin-top: 21px;
   }
 }
@@ -36,7 +36,7 @@
   top: 5px;
 
   & img {
-    display:  block;
+    display: block;
     width: 100%;
   }
 }
@@ -53,20 +53,20 @@
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #00B2FF;
-  border: 1px solid #00B2FF;
+  color: #00b2ff;
+  border: 1px solid #00b2ff;
   box-sizing: border-box;
   border-radius: 5px;
   padding: 14px 0 14px 0;
   margin-top: 38px;
 
   &:hover {
-    background-color: #00B2FF;
+    background-color: #00b2ff;
     color: #ffffff;
   }
 }
 
-@media(max-width: 1023px) {
+@media (max-width: 1023px) {
   .about-company {
     padding-bottom: 84px;
   }
@@ -102,10 +102,11 @@
   }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .about-company {
     padding-bottom: 65px;
   }
+
   .about-company__image {
     display: none;
   }

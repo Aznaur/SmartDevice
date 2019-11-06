@@ -1,15 +1,12 @@
 .wrap-block {
-  background-image: url("../img/triangle-grey-2.svg"),
-                    url("../img/triangle-grey-4.svg"),
-                    url("../img/triangle-grey-1.svg"),
-                    url("../img/triangle-grey-3.svg");
+  background-image: url("../img/triangle-grey-2.svg"), url("../img/triangle-grey-4.svg"), url("../img/triangle-grey-1.svg"), url("../img/triangle-grey-3.svg");
   background-repeat: no-repeat;
   background-size: 486.32px 559.73px, 223.55px 258.13px, 223.54px 258.13px, 481.6px 559.73px;
   background-position: 831px 302px, 1668px 462px, 202px 46px, -180px 599px;
   padding-top: 113px;
 }
 
-@media(max-width: 1023px) {
+@media (max-width: 1023px) {
   .wrap-block {
     padding-top: 54px;
     background-image: url("../img/triangle-grey-2.svg");
@@ -17,7 +14,7 @@
   }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .wrap-block {
     padding-top: 37px;
     background-image: url("../img/triangle-grey-2.svg");
