@@ -6,7 +6,7 @@
   padding-top: 113px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: $table-width) {
   .wrap-block {
     padding-top: 54px;
     background-image: url("../img/triangle-grey-2.svg");
@@ -14,7 +14,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $mobile-width) {
   .wrap-block {
     padding-top: 37px;
     background-image: url("../img/triangle-grey-2.svg");

@@ -8,7 +8,7 @@
   margin-left: 180px;
 
   & h2 {
-    font-family: "Roboto Condensed", "Calibri", sans-serif;
+    font-family: $font-robotoCondensed, "Calibri", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -45,7 +45,7 @@
   display: block;
   width: 180px;
   text-decoration: none;
-  font-family: "Roboto Condensed", "Calibri", sans-serif;
+  font-family: $font-robotoCondensed, "Calibri", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -66,7 +66,7 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: $table-width) {
   .about-company {
     padding-bottom: 84px;
   }
@@ -102,7 +102,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $mobile-width) {
   .about-company {
     padding-bottom: 65px;
   }

@@ -32,7 +32,7 @@
 }
 
 .start-home__title {
-  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-family: $font-robotoCondensed, "Arial", sans-serif;
   font-weight: bold;
   font-size: 80px;
   line-height: 94px;
@@ -92,7 +92,7 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: $table-width) {
   .start-home {
     padding-left: 94px;
 
@@ -146,7 +146,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $mobile-width) {
   .start-home {
     width: 87%;
     padding-left: 21px;

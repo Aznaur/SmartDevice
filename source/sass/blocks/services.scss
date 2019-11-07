@@ -4,7 +4,7 @@
   padding-bottom: 128px;
 
   & h2 {
-    font-family: "Roboto Condensed", "Calibri", sans-serif;
+    font-family: $font-robotoCondensed, "Calibri", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -51,7 +51,7 @@
   & h3 {
     width: 160px;
     color: #ffffff;
-    font-family: "Roboto Condensed", "Calibri", sans-serif;
+    font-family: $font-robotoCondensed, "Calibri", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -81,7 +81,7 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: $table-width) {
   .services {
     padding-top: 51px;
     padding-bottom: 78px;
@@ -128,7 +128,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $mobile-width) {
   .services {
     padding-bottom: 64px;
 

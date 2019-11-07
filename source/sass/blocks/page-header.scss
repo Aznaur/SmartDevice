@@ -86,7 +86,7 @@
 .page-header__link {
   padding: 14px 27px;
   margin-left: 50px;
-  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-family: $font-robotoCondensed, "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -116,7 +116,7 @@
   color: #ffffff;
   border: 0;
   margin-left: 93px;
-  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-family: $font-robotoCondensed, "Arial", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
@@ -132,7 +132,7 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: $table-width) {
   .page-header {
     padding-top: 20px;
     min-width: 750px;
@@ -178,7 +178,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $mobile-width) {
   .page-header {
     padding-top: 17px;
     min-width: 320px;
