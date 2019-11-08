@@ -7,3 +7,13 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
+
+.hidden {
+  display: none;
+}
+
+.modal-open {
+  height: 100vh;
+  overflow: hidden;
+}
+

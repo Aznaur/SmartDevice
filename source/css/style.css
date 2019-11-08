@@ -317,6 +317,13 @@ body {
   color: #000000;
   background-color: #ffffff; }
 
+.hidden {
+  display: none; }
+
+.modal-open {
+  height: 100vh;
+  overflow: hidden; }
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -1213,7 +1220,8 @@ input[type="radio"].visually-hidden {
     padding-left: 50px;
     padding-top: 9px;
     font-size: 14px;
-    line-height: 16px; }
+    line-height: 16px;
+    cursor: pointer; }
     .form__field-bottom label::before {
       content: "";
       position: absolute;
@@ -1496,7 +1504,7 @@ input[type="radio"].visually-hidden {
       right: 17px;
       width: 16px;
       height: 1px;
-      background-color: #C4C4C4; }
+      background-color: #c4c4c4; }
     .page-footer__nav p::after {
       content: "";
       position: absolute;
@@ -1504,7 +1512,7 @@ input[type="radio"].visually-hidden {
       right: 24.5px;
       width: 1px;
       height: 16px;
-      background-color: #C4C4C4; }
+      background-color: #c4c4c4; }
   .page-footer__contacts {
     margin-top: 30px;
     margin-right: 0;
@@ -1518,7 +1526,7 @@ input[type="radio"].visually-hidden {
         right: 17px;
         width: 16px;
         height: 1px;
-        background-color: #C4C4C4; }
+        background-color: #c4c4c4; }
     .page-footer__contacts p {
       width: 272px; }
   .page-footer__bottom {
@@ -1742,7 +1750,6 @@ input[type="radio"].visually-hidden {
   padding-top: 60px;
   padding-bottom: 60px;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: none; }
+  background-color: rgba(0, 0, 0, 0.8); }
 
 /*# sourceMappingURL=style.css.map */
