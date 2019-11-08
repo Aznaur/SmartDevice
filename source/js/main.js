@@ -5,6 +5,16 @@
   var modal = document.querySelector('.wrapp-modal');
   var modalOpen = document.querySelector('.page-header__link');
   var modalClose = document.querySelector('.modal__close');
+  var formTel = document.querySelector('.form__field-name');
+
+  var element = formTel.querySelector('#tel-field');
+  var element2 = document.querySelector('#tel-field');
+
+  var maskOptions = {
+    mask: '+{7}(000)000-00-00'
+  };
+  var mask = IMask(element, maskOptions);
+  var mask = IMask(element2, maskOptions);
 
   var onPopupEscPress = function (evt) {
     if (evt.keyCode === ESC_KEYCODE) {
