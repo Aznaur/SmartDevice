@@ -6,10 +6,11 @@
   var modalOpen = document.querySelector('.page-header__link');
   var modalClose = document.querySelector('.modal__close');
   var formTel = document.querySelector('.form__field-name');
-
+  var satSection = document.querySelector('.menu__js');
+  var navList = document.querySelector('.footer-nav__list');
   var element = formTel.querySelector('#tel-field');
   var element2 = document.querySelector('#tel-field');
-
+  var mobileWidth = 767;
   var maskOptions = {
     mask: '+{7}(000)000-00-00'
   };
@@ -21,6 +22,16 @@
       closePopup();
     }
   };
+
+  var adaptiveJs = function (widthScr) {
+    if (screen.width <= widthScr) {
+      satSection.addEventListener('click', function () {
+        navList.classList.toggle('footer-nav__hidden');
+      });
+    }
+  };
+
+  adaptiveJs(mobileWidth);
 
   var openPopup = function () {
     modal.classList.remove('hidden');

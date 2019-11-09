@@ -31,8 +31,23 @@
   padding: 0;
 }
 
+@media (max-width: $table-width) {
+  .footer-nav__list {
+    width: 243px;
+  }
+
+  .footer-nav__item:first-of-type {
+    margin-right: 0;
+  }
+}
+
 @media (max-width: $mobile-width) {
   .footer-nav__list {
     display: none;
+    padding-bottom: 20px;
+  }
+
+  .footer-nav__hidden {
+    display: flex;
   }
 }

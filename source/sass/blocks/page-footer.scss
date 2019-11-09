@@ -15,8 +15,6 @@
 
 .page-footer__inner {
   max-width: 1416px;
-  padding-left: 25px;
-  padding-right: 25px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -27,6 +25,7 @@
 .page-footer__social {
   position: relative;
   margin-right: 50px;
+  padding-left: 25px;
 
   & p {
     position: absolute;
@@ -67,6 +66,7 @@
 
 .page-footer__contacts {
   width: 333px;
+  padding-right: 25px;
 
   & h3 {
     font-family: $font-robotoCondensed, "Calibri", sans-serif;
@@ -106,6 +106,8 @@
 .page-footer__bottom {
   width: 100%;
   position: relative;
+  padding-left: 25px;
+  padding-right: 25px;
   display: flex;
   margin-top: 60px;
   align-items: center;
@@ -162,6 +164,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 25px;
     height: 52px;
     margin-right: 0;
     margin-bottom: 65px;
@@ -182,6 +185,7 @@
   }
 
   .page-footer__nav {
+    padding-left: 25px;
     width: 44%;
   }
 
@@ -202,9 +206,7 @@
 
 @media (max-width: $mobile-width) {
   .page-footer__inner {
-    padding-top: 48px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 46px;
   }
 
   .page-footer__social {
@@ -213,14 +215,17 @@
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+    height: auto;
     min-height: 150px;
     margin-right: 0;
-    margin-bottom: 93px;
+    margin-bottom: 56px;
+    padding-left: 15px;
+    padding-right: 15px;
 
     & p {
       position: static;
       padding-top: 7px;
-      padding-left: 14px;
+      padding-left: 0;
       margin-bottom: 32px;
     }
 
@@ -235,32 +240,35 @@
     &::before {
       content: "";
       top: 260px;
+      display: none;
     }
 
     &::after {
       content: "";
       bottom: 123px;
+      display: none;
     }
   }
 
   .page-footer__nav {
     position: relative;
     width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 1px solid rgba(98, 105, 98, 0.2);
+    border-bottom: 1px solid rgba(98, 105, 98, 0.2);
+
+    & p {
+      margin-bottom: 0;
+      padding-top: 28px;
+      padding-bottom: 28px;
+      cursor: pointer;
+    }
 
     &::before {
       content: "";
       position: absolute;
-      width: 1000px;
-      height: 1px;
-      background-color: rgba(98, 105, 98, 0.2);
-      top: 41px;
-      left: -32px;
-    }
-
-    & p::before {
-      content: "";
-      position: absolute;
-      top: 7px;
+      top: 36px;
       right: 17px;
       width: 16px;
       height: 1px;
@@ -270,7 +278,7 @@
     & p::after {
       content: "";
       position: absolute;
-      top: -0.5px;
+      top: 27.5px;
       right: 24.5px;
       width: 1px;
       height: 16px;
@@ -279,9 +287,13 @@
   }
 
   .page-footer__contacts {
+    width: 100%;
     margin-top: 30px;
     margin-right: 0;
     position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 26px;
 
     & h3 {
       margin-bottom: 30px;
@@ -305,7 +317,9 @@
   .page-footer__bottom {
     flex-direction: column;
     align-items: center;
-    margin-top: 45px;
+    margin-top: 0;
+    padding-top: 28px;
+    border-top: 1px solid rgba(98, 105, 98, 0.2);
 
     & a:last-of-type {
       margin-left: 0;
