@@ -43,6 +43,7 @@
 
 .about-company__btn {
   display: block;
+  word-break: break-word;
   width: 180px;
   text-decoration: none;
   font-family: $font-robotoCondensed, "Calibri", sans-serif;
