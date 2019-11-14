@@ -6,9 +6,9 @@
   var modalOpen = document.querySelector('.page-header__link');
   var modalClose = document.querySelector('.modal__close');
   var formTel = document.querySelector('.form__field-name');
-  var satSection = document.querySelector('.menu__js');
+  var satSection = document.querySelector('.footer-nav__js');
   var navList = document.querySelector('.footer-nav__list');
-  var element = formTel.querySelector('#tel-field');
+  var element = formTel.querySelector('#tel-field-feedback');
   var element2 = document.querySelector('#tel-field');
   var mobileWidth = 767;
   var maskOptions = {
