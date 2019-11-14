@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="производство и монтаж, поставка комплектующих, блоков и модулей">
+  <meta name="keywords" content="светотехника, печатные платы, монтаж плат, производство плат">
   <title>Smart Device</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -165,14 +167,14 @@
               <p>Мы проконсультируем Вас бесплатно</p>
             <div class="form__field-name">
               <label class="visually-hidden" for="name-field-feedback">Имя</label>
-              <input type="text" id="name-field-feedback" name="name" placeholder="Имя">
+              <input type="text" id="name-field-feedback" name="name" placeholder="Имя" aria-label="Поле для ввода имени">
 
               <label class="visually-hidden" for="tel-field-">Телефон</label>
-              <input type="text" id="tel-field-feedback" name="tel" placeholder="Телефон">
+              <input type="text" id="tel-field-feedback" name="tel" placeholder="Телефон" aria-label="Поле для ввода номера телефона">
             </div>
 
             <div class="form__field-textarea">
-              <textarea name="question" placeholder="Ваш вопрос"></textarea>
+              <textarea name="question" placeholder="Ваш вопрос" aria-label="Поле для набора вопроса"></textarea>
             </div>
 
             <div class="form__field-bottom">
@@ -239,12 +241,22 @@
           </li>
         </ul>
       </nav>
-      <div class="page-footer__contacts">
-          <h3>Наш офис</h3>
-          <p>г. Мытищи, Олимпийский проспект, д.10</p>
-          <a href="tel:+7(495)5894050">+7 (495) 589-40-50</a>
-          <a href="tel:+7(925)0038767">+7 (925) 003-87-67</a>
-          <a href="tel:+7(926)92608079">+7 (926) 926-080-79</a>
+      <div class="page-footer__contacts footer-contacts">
+          <h3 class="footer-contacts__js">Наш офис</h3>
+          <ul class="footer-contacts__list footer-contacts__hidden">
+            <li>
+              <p>г. Мытищи, Олимпийский проспект, д.10</p>
+            </li>
+            <li>
+              <a href="tel:+7(495)5894050">+7 (495) 589-40-50</a>
+            </li>
+            <li>
+              <a href="tel:+7(925)0038767">+7 (925) 003-87-67</a>
+            </li>
+            <li>
+              <a href="tel:+7(926)92608079">+7 (926) 926-080-79</a>
+            </li>
+          </ul>
       </div>
 
       <div class="page-footer__bottom">

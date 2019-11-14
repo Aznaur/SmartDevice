@@ -1,0 +1,13 @@
+.footer-contacts__list {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 26px;
+}
+
+@media (max-width: $mobile-width) {
+  .footer-contacts__hidden {
+    display: block;
+  }
+}
