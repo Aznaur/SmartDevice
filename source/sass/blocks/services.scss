@@ -18,18 +18,18 @@
 .services__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .services__item {
   position: relative;
-  width: 31.624%;
+  width: 31.623%;
   height: 620px;
   box-sizing: border-box;
   text-decoration: none;
   padding-top: 50px;
   padding-left: 43px;
   border: 1px solid transparent;
-  margin-right: 30px;
   margin-bottom: 30px;
 
   &:nth-of-type(3n) {
@@ -89,8 +89,8 @@
 
 @media (max-width: $table-width) {
   .services {
-    padding-top: 51px;
-    padding-bottom: 78px;
+    padding-top: 48px;
+    padding-bottom: 32px;
 
     & h2 {
       width: 86%;
@@ -110,6 +110,7 @@
     height: 256px;
     padding-top: 40px;
     padding-left: 45px;
+    margin-bottom: 30px;
 
     &--production {
       background-image: url("../img/service-0-tablet@1x.png");
@@ -136,7 +137,7 @@
 
 @media (max-width: $mobile-width) {
   .services {
-    padding-bottom: 63px;
+    padding-bottom: 35px;
 
     & h2 {
       width: 100%;

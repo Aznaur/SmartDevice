@@ -1,5 +1,4 @@
 .footer-contacts__list {
-  display: none;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -7,7 +6,19 @@
 }
 
 @media (max-width: $mobile-width) {
+  .footer-contacts__list {
+    display: none;
+  }
+
   .footer-contacts__hidden {
     display: block;
+  }
+
+  .footer-contacts__open {
+    display: block;
+    background-image: url("../img/minus.svg");
+    background-size: 16px 16px;
+    background-position: 94.4% 28px;
+    background-repeat: no-repeat;
   }
 }

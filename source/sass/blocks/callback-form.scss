@@ -18,7 +18,7 @@
     margin: 0;
     padding-left: 4px;
     color: #ffffff;
-    margin-bottom: 52px;
+    margin-bottom: 33px;
   }
 }
 
@@ -30,10 +30,11 @@
     width: 100%;
     height: 52px;
     box-sizing: border-box;
-    padding-left: 16px;
+    padding-left: 24px;
     color: #ffffff;
     background-color: #19baff;
     border: none;
+    border-radius: 0;
   }
 
   & input::placeholder {
@@ -47,7 +48,7 @@
 
 .callback-form__field-textarea {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 
   & textarea {
     width: 100%;
@@ -57,7 +58,8 @@
     background-color: #19baff;
     color: #ffffff;
     padding-top: 13px;
-    padding-left: 16px;
+    padding-left: 24px;
+    border-radius: 0;
 
     &::placeholder {
       color: #ffffff;
@@ -85,7 +87,7 @@
     border: 1px solid #ffffff;
     box-sizing: border-box;
     border-radius: 5px;
-    margin-bottom: 35px;
+    margin-bottom: 28px;
     cursor: pointer;
 
     &:hover {
@@ -104,6 +106,7 @@
     padding-top: 9px;
     font-size: 14px;
     line-height: 16px;
+    cursor: pointer;
 
     &::before {
       content: "";
@@ -112,7 +115,7 @@
       height: 16px;
       box-sizing: border-box;
       border: 1px solid #ffffff;
-      left: 18px;
+      left: 0;
     }
   }
 

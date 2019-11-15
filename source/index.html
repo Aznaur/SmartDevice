@@ -26,7 +26,10 @@
       <div class="start-home__message">
         <p class="start-home__title">Печатные платы</p>
         <p class="start-home__subtitle">производство и монтаж, поставка комплектующих, блоков и модулей</p>
-        <button class="page-header__btn" type="button">Получить бесплатную консультацию</button>
+        <button class="page-header__btn" type="button">
+          <b>Получить бесплатную консультацию</b>
+          <b>Бесплатная консультация</b>
+        </button>
         <a href="#ya1" class="scroll">Скролл вниз</a>
       </div>
       <div class="start-home__img">
@@ -45,10 +48,10 @@
             <p>Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
           <div class="callback-form__field-name">
             <label class="visually-hidden" for="name-field">Имя</label>
-            <input type="text" id="name-field" name="name" placeholder="Имя">
+            <input type="text" id="name-field" name="name" placeholder="Имя" required>
 
             <label class="visually-hidden" for="tel-field">Телефон</label>
-            <input type="text" id="tel-field" name="tel" placeholder="Телефон">
+            <input type="text" id="tel-field" name="tel" placeholder="Телефон" required>
           </div>
 
           <div class="callback-form__field-textarea">
@@ -57,7 +60,7 @@
 
           <div class="callback-form__field-bottom">
             <button type="submit">Отправить</button>
-            <input type="checkbox" name="consent" id="checkbox-field" checked class="visually-hidden">
+            <input type="checkbox" name="consent" id="checkbox-field" checked class="visually-hidden" required>
             <label for="checkbox-field">Я согласен на обработку  персональных данных</label>
           </div>
         </form>
@@ -167,10 +170,10 @@
               <p>Мы проконсультируем Вас бесплатно</p>
             <div class="form__field-name">
               <label class="visually-hidden" for="name-field-feedback">Имя</label>
-              <input type="text" id="name-field-feedback" name="name" placeholder="Имя" aria-label="Поле для ввода имени">
+              <input type="text" id="name-field-feedback" name="name" placeholder="Имя" aria-label="Поле для ввода имени" required>
 
               <label class="visually-hidden" for="tel-field-">Телефон</label>
-              <input type="text" id="tel-field-feedback" name="tel" placeholder="Телефон" aria-label="Поле для ввода номера телефона">
+              <input type="text" id="tel-field-feedback" name="tel" placeholder="Телефон" aria-label="Поле для ввода номера телефона" required>
             </div>
 
             <div class="form__field-textarea">
@@ -179,7 +182,7 @@
 
             <div class="form__field-bottom">
               <button type="submit">Задать вопрос</button>
-              <input type="checkbox" name="consent" id="consent-field" checked class="visually-hidden">
+              <input type="checkbox" name="consent" id="consent-field" checked class="visually-hidden" required>
               <label for="consent-field">Я согласен на обработку  персональных данных</label>
             </div>
           </form>
@@ -243,7 +246,7 @@
       </nav>
       <div class="page-footer__contacts footer-contacts">
           <h3 class="footer-contacts__js">Наш офис</h3>
-          <ul class="footer-contacts__list footer-contacts__hidden">
+          <ul class="footer-contacts__list">
             <li>
               <p>г. Мытищи, Олимпийский проспект, д.10</p>
             </li>

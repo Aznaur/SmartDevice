@@ -84,6 +84,7 @@
 }
 
 .page-header__link {
+  width: 182px;
   padding: 14px 27px;
   margin-left: 50px;
   font-family: $font-robotoCondensed, "Arial", sans-serif;
@@ -124,6 +125,10 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   cursor: pointer;
+
+  & b:last-of-type {
+    display: none;
+  }
 
   &:hover {
     background-color: inherit;
@@ -200,5 +205,13 @@
     margin: 0;
     padding: 0;
     margin-left: -3px;
+
+    & b:first-of-type {
+      display: none;
+    }
+
+    & b:last-of-type {
+      display: block;
+    }
   }
 }

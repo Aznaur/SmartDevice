@@ -2,14 +2,14 @@
   width: 490px;
   background-color: #00b2ff;
   position: absolute;
-  top: 50%;
+  top: 50.4%;
   margin-top: -302.5px;
   left: 50%;
   margin-left: -245px;
   box-sizing: border-box;
-  padding-left: 40px;
+  padding-left: 39px;
   padding-right: 40px;
-  padding-top: 35px;
+  padding-top: 30px;
   padding-bottom: 35px;
   z-index: 100;
 }
@@ -29,4 +29,8 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+
+  &:hover {
+    border: 1px solid #ffffff;
+  }
 }
