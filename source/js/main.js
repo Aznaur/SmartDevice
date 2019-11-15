@@ -6,15 +6,43 @@
   var modalOpen = document.querySelector('.page-header__link');
   var modalClose = document.querySelector('.modal__close');
   var formTel = document.querySelector('.form__field-name');
-  var satSection = document.querySelector('.footer-nav__js');
-  var navList = document.querySelector('.footer-nav__list');
+  var satSection = document.querySelectorAll('.page-footer__js');
+  var pageHeaderScroll = document.querySelector('.page-header__scroll');
+  var anchor1 = document.querySelector('#ya1');
   var element = formTel.querySelector('#tel-field-feedback');
   var element2 = document.querySelector('#tel-field');
-  var mobileWidth = 767;
-  var contactsList = document.querySelector('.footer-contacts__list');
-  var contactsTitle = document.querySelector('.footer-contacts__js');
-  var footerNav = document.querySelector('.footer-nav');
-  var footerContacts = document.querySelector('.footer-contacts');
+  var pageHeaderBtn = document.querySelector('.page-header__btn');
+  var anchor2 = document.querySelector('#ya2');
+
+
+  pageHeaderScroll.addEventListener('click', function (evt) {
+    evt.preventDefault();
+    anchor1.scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+
+  pageHeaderBtn.addEventListener('click', function () {
+    anchor2.scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+
+  for (var i = 0; i < satSection.length; i++) {
+    satSection[i].addEventListener('click', function (evt) {
+      var target = evt.target;
+
+      if (target.classList.contains('page-footer__open')) {
+        target.classList.remove('page-footer__open');
+      } else {
+        var openSat = document.querySelector('.page-footer__open');
+        if (openSat) {
+          openSat.classList.remove('page-footer__open');
+        }
+        target.classList.add('page-footer__open');
+      }
+    });
+  }
 
   var maskOptions = {
     mask: '+{7}(000)000-00-00'
@@ -27,22 +55,6 @@
       closePopup();
     }
   };
-
-  var adaptiveJs = function (widthScr) {
-    if (screen.width <= widthScr) {
-      satSection.addEventListener('click', function () {
-        navList.classList.toggle('footer-nav__hidden');
-        footerNav.classList.toggle('page-footer__open');
-      });
-
-      contactsTitle.addEventListener('click', function () {
-        contactsList.classList.toggle('footer-contacts__hidden');
-        footerContacts.classList.toggle('footer-contacts__open');
-      });
-    }
-  };
-
-  adaptiveJs(mobileWidth);
 
   var openPopup = function () {
     modal.classList.remove('hidden');

@@ -9,16 +9,4 @@
   .footer-contacts__list {
     display: none;
   }
-
-  .footer-contacts__hidden {
-    display: block;
-  }
-
-  .footer-contacts__open {
-    display: block;
-    background-image: url("../img/minus.svg");
-    background-size: 16px 16px;
-    background-position: 94.4% 28px;
-    background-repeat: no-repeat;
-  }
 }
